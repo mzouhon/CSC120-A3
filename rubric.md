@@ -12,7 +12,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: `reflection.md` lists the classmates you consulted & TA hours attended
+__YES___ 1 pt: `reflection.md` lists the classmates you consulted & TA hours attended
 
 __YES___ 1 pt: Program queries user for number of conversation rounds
 
@@ -52,9 +52,9 @@ __YES___ 4 pts: Programs compile without errors or warnings
 
 __YES___ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+___YES__ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      __YES?___ Classes & class members all have Javadoc header comments
 
       ____YES_ Clear and consistent indentation of bracketed sections
 
@@ -64,6 +64,6 @@ _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       ___YES__ Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+__YES___ 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+__YES___ 1 pt: `reflection.md` contains your reflection on the assignment

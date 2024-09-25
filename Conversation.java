@@ -14,6 +14,7 @@ class Conversation {
     int rounds=input.nextInt();
     input.nextLine(); //consumes newline character to avoid problems getting input later
     
+    //creates array that will store transcript and sets index to 0
     String[] transcript=new String[2*rounds];
     int arrayIndex=0;
 
@@ -23,6 +24,8 @@ class Conversation {
     String response=input.nextLine();
     transcript[arrayIndex++] = "You: " + response;
     
+    //loop that checks for and replaces mirror words + records computer and user responses
+    //runs for the number of times user enters
     while (rounds >1){
       
       String originalResponse=response;
@@ -46,7 +49,6 @@ class Conversation {
       }else{
         String cannedResponse=cannedResponse();
         System.out.println(cannedResponse);
-       
         transcript[arrayIndex++]="Computer: "+ cannedResponse;
       }
       response=input.nextLine();
@@ -54,13 +56,12 @@ class Conversation {
       rounds--;
     }
     
+    //prints logoff message and transcript+ closes scanner
     String logOffMessage=("It was nice chatting with you, bye!");
     System.out.println(logOffMessage);
     transcript[arrayIndex++]="Computer: "+ logOffMessage;
-
     System.out.println("");
     System.out.println("TRANSCRIPT:");
-
     for (String element: transcript){
       System.out.println(element);
     }
